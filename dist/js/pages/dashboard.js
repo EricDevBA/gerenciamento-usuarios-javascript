@@ -91,7 +91,7 @@ $(function () {
   });
 
   // Sparkline charts
-  var myvalues = [1000, 1200, 920, 927, 931, 1027, 819, 930, 1021];
+  var myvalues = [1000, 1200, 920, 927, 931, 10207, 819, 930, 1021];
   $('#sparkline-1').sparkline(myvalues, {
     type     : 'line',
     lineColor: '#92c1dc',
