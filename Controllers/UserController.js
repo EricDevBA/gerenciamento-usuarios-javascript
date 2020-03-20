@@ -22,7 +22,7 @@ class UserController {
         let user = {};
         let isValid = true;
 
-        [...formEl.elements].forEach(function (field, index) {
+        [...this.formEl.elements].forEach(function (field, index) {   // Operador Spread
 
             if (['name', 'email', 'password'].indexOf(field.name) > -1 && !field.value) {
 
